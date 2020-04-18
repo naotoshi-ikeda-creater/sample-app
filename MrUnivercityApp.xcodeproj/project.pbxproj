@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD0BB8F3BBFCDA2BA7ACA3C4 /* Pods_MrUnivercityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 514E03BAE1CAC08F986EC937 /* Pods_MrUnivercityApp.framework */; };
+		EC23B49D8CACE49206822D3B /* Pods_MrUnivercityAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CEC89E30B60B0234DD3834 /* Pods_MrUnivercityAppTests.framework */; };
 		F9B8898B244B426C0095567C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8898A244B426C0095567C /* AppDelegate.swift */; };
 		F9B8898D244B426C0095567C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8898C244B426C0095567C /* ViewController.swift */; };
 		F9B88990244B426C0095567C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B8898E244B426C0095567C /* Main.storyboard */; };
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26CEC89E30B60B0234DD3834 /* Pods_MrUnivercityAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrUnivercityAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		514E03BAE1CAC08F986EC937 /* Pods_MrUnivercityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MrUnivercityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		651FCCB1553F9C3C1623B138 /* Pods-MrUnivercityAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrUnivercityAppTests.release.xcconfig"; path = "Target Support Files/Pods-MrUnivercityAppTests/Pods-MrUnivercityAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B07C3C428AB26FC289972FF8 /* Pods-MrUnivercityAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrUnivercityAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MrUnivercityAppTests/Pods-MrUnivercityAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBD6F43BF760FDF73801518 /* Pods-MrUnivercityApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrUnivercityApp.release.xcconfig"; path = "Target Support Files/Pods-MrUnivercityApp/Pods-MrUnivercityApp.release.xcconfig"; sourceTree = "<group>"; };
+		E2C6D3184980A101BB54F3C2 /* Pods-MrUnivercityApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MrUnivercityApp.debug.xcconfig"; path = "Target Support Files/Pods-MrUnivercityApp/Pods-MrUnivercityApp.debug.xcconfig"; sourceTree = "<group>"; };
 		F9B88987244B426B0095567C /* MrUnivercityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrUnivercityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B8898A244B426C0095567C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9B8898C244B426C0095567C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD0BB8F3BBFCDA2BA7ACA3C4 /* Pods_MrUnivercityApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC23B49D8CACE49206822D3B /* Pods_MrUnivercityAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61F254E38C89BAB2AC5FECA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				514E03BAE1CAC08F986EC937 /* Pods_MrUnivercityApp.framework */,
+				26CEC89E30B60B0234DD3834 /* Pods_MrUnivercityAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17699E4C24CA25CDCF1D842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6D3184980A101BB54F3C2 /* Pods-MrUnivercityApp.debug.xcconfig */,
+				DBBD6F43BF760FDF73801518 /* Pods-MrUnivercityApp.release.xcconfig */,
+				B07C3C428AB26FC289972FF8 /* Pods-MrUnivercityAppTests.debug.xcconfig */,
+				651FCCB1553F9C3C1623B138 /* Pods-MrUnivercityAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F9B8897E244B426B0095567C = {
 			isa = PBXGroup;
 			children = (
 				F9B88989244B426C0095567C /* MrUnivercityApp */,
 				F9B8899E244B426F0095567C /* MrUnivercityAppTests */,
 				F9B88988244B426C0095567C /* Products */,
+				C17699E4C24CA25CDCF1D842 /* Pods */,
+				61F254E38C89BAB2AC5FECA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9B889A4244B426F0095567C /* Build configuration list for PBXNativeTarget "MrUnivercityApp" */;
 			buildPhases = (
+				E7BFF150E9FFE22D347493B1 /* [CP] Check Pods Manifest.lock */,
 				F9B88983244B426B0095567C /* Sources */,
 				F9B88984244B426B0095567C /* Frameworks */,
 				F9B88985244B426B0095567C /* Resources */,
@@ -120,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9B889A7244B426F0095567C /* Build configuration list for PBXNativeTarget "MrUnivercityAppTests" */;
 			buildPhases = (
+				A85062BD7580B121127EA97D /* [CP] Check Pods Manifest.lock */,
 				F9B88997244B426F0095567C /* Sources */,
 				F9B88998244B426F0095567C /* Frameworks */,
 				F9B88999244B426F0095567C /* Resources */,
@@ -191,6 +226,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A85062BD7580B121127EA97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MrUnivercityAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BFF150E9FFE22D347493B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MrUnivercityApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9B88983244B426B0095567C /* Sources */ = {
@@ -358,6 +440,7 @@
 		};
 		F9B889A5244B426F0095567C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C6D3184980A101BB54F3C2 /* Pods-MrUnivercityApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -375,6 +458,7 @@
 		};
 		F9B889A6244B426F0095567C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBD6F43BF760FDF73801518 /* Pods-MrUnivercityApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -392,6 +476,7 @@
 		};
 		F9B889A8244B426F0095567C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07C3C428AB26FC289972FF8 /* Pods-MrUnivercityAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +497,7 @@
 		};
 		F9B889A9244B426F0095567C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 651FCCB1553F9C3C1623B138 /* Pods-MrUnivercityAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
